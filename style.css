@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+    border: 2px solid #4CAF50;
+}
+
+h1 {
+    font-size: 22px;
+    color: #4CAF50;
+}
+
+input, button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+input {
+    border: 1px solid #ddd;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.result strong {
+    color: #4CAF50;
+}
+
+.result em {
+    color: #007BFF;
+}
+
+ul {
+    padding-left: 20px;
+    text-align: left;
+    color: #555;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Styling untuk pecahan */
+.fraction {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    vertical-align: middle;
+}
+
+.fraction .numerator {
+    display: block;
+    font-size: 16px;
+}
+
+.fraction .denominator {
+    display: block;
+    font-size: 16px;
+    border-top: 1px solid #000;
+    padding-top: 2px;
+    margin-top: 2px;
+}

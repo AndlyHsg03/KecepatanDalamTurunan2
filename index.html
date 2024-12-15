@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta tags untuk pengaturan karakter dan tampilan responsif -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Judul halaman yang akan muncul di tab browser -->
+    <title>Kecepatan dan Posisi Pelari</title>
+    <!-- Menghubungkan dengan file CSS untuk styling -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Kontainer utama untuk tampilan UI -->
+    <div class="container">
+        <!-- Judul utama halaman -->
+        <h1>Hitung Kecepatan Kendaraan</h1>
+
+        <!-- Label dan input untuk persamaan posisi -->
+        <label for="persamaan">Masukkan persamaan posisi (contoh: 2t^2 + 2t): </label>
+        <input type="text" id="persamaan" placeholder="Misalnya: 2t^2 + 2t" />
+
+        <!-- Label dan input untuk waktu -->
+        <label for="time">Masukkan waktu (t) dalam detik: </label>
+        <input type="number" id="time" placeholder="Masukkan waktu" />
+
+        <!-- Tombol untuk memicu perhitungan -->
+        <button onclick="hitung()">Hitung</button>
+
+        <!-- Div untuk menampilkan hasil kecepatan dan posisi -->
+        <div id="kecepatan" class="result"></div>
+        <div id="posisi" class="result"></div>
+    </div>
+
+    <!-- Menghubungkan dengan file JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
